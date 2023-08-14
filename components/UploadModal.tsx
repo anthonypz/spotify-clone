@@ -39,8 +39,6 @@ const UploadModal = () => {
 	const onSubmit: SubmitHandler<FieldValues> = async (values) => {
 		try {
 			setIsLoading(true);
-			// TODO: remove console log when done testing
-			console.log(values);
 			const imageFile = values.image?.[0];
 			const songFile = values.song?.[0];
 
