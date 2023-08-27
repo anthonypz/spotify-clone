@@ -64,15 +64,7 @@ export const MyUserContextProvider = (props: Props) => {
 			setUserDetails(null);
 			setSubscription(null);
 		}
-	}, [
-		user,
-		isLoadingUser,
-		isLoadingData,
-		userDetails,
-		subscription,
-		getUserDetails,
-		getSubscription,
-	]);
+	}, [user, isLoadingUser]);
 
 	const value = {
 		accessToken,
