@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+A Spotify clone project integrating song uploads, Stripe payments,a favorites system, and playlist creation, all seamlessly incorporated using Next.js 13's App router.
 
 ## Getting Started
 
